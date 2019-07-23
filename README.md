@@ -1,6 +1,6 @@
 # Freestrap
 
-<!--a nice CSS2 css framework for freenet-->
+`a nice CSS2 css framework for freenet`
 
 ## Introduction
 
