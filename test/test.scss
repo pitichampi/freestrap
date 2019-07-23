@@ -74,17 +74,17 @@ $jaune:yellow;
       color: $blanc;
       display: table-cell;
       border: 1px solid $noir;
-      &[data-test]{
+      &[href]{
         border-radius:5px;
       }
-      &[data-test="off"]{
+      &[href="off"]{
         background-color: $grisf;
         color: $grisc;
       }
-      &[data-test="on"]{
+      &[href="on"]{
         background-color: $vert;
       }
-      &[data-test~="on"]{
+      &[href~="on"]{
         color: $rouge;
       }
     }

@@ -56,17 +56,17 @@
   display: table-cell;
   border: 1px solid black;
 }
-#menus_2 .elt[data-test] {
+#menus_2 .elt[href] {
   border-radius: 5px;
 }
-#menus_2 .elt[data-test=off] {
+#menus_2 .elt[href=off] {
   background-color: #676767;
   color: #9a9a9a;
 }
-#menus_2 .elt[data-test=on] {
+#menus_2 .elt[href=on] {
   background-color: green;
 }
-#menus_2 .elt[data-test~=on] {
+#menus_2 .elt[href~=on] {
   color: red;
 }
 
