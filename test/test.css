@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/*
+  Created by Pitichampi
+  For freenet
+  Date: 23/07/2019
+  Time: 10:22
+
+  --- test ---
+
+        _
+    ,--'_`--.    
+  ,/( \   / )\.  
+ //  \ \_/ /  \\ 
+|/___/     \___\|
+((___       ___))    Join the Empire !!!  ﴾̵ ̵◎̵ ̵﴿
+|\   \  _  /   /|
+ \\  / / \ \  // 
+  `\(_/___\_)/'
+    `--._.--'
+
+ */
+#menus_1 {
+  display: table;
+  width: 100%;
+  margin: 15px 0;
+  padding-left: 0;
+}
+#menus_1 .elt {
+  display: table-cell;
+}
+#menus_1 .elt:first-child {
+  background-color: green;
+  color: white;
+}
+#menus_1 .elt:hover {
+  background-color: blue;
+  color: white;
+}
+#menus_1 .elt:focus {
+  background-color: orange;
+  color: white;
+}
+#menus_1 .elt:active {
+  background-color: red;
+  color: white;
+}
+#menus_2 {
+  display: table;
+  width: 100%;
+  margin: 15px 0;
+  padding-left: 0;
+}
+#menus_2 .elt {
+  background-color: blue;
+  color: white;
+  display: table-cell;
+  border: 1px solid black;
+}
+#menus_2 .elt[data-test] {
+  border-radius: 5px;
+}
+#menus_2 .elt[data-test=off] {
+  background-color: #676767;
+  color: #9a9a9a;
+}
+#menus_2 .elt[data-test=on] {
+  background-color: green;
+}
+#menus_2 .elt[data-test~=on] {
+  color: red;
+}
+
+/*# sourceMappingURL=test.css.map */

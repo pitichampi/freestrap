@@ -1,0 +1,92 @@
+/*
+  Created by Pitichampi
+  For freenet
+  Date: 23/07/2019
+  Time: 10:22
+  
+  --- test ---
+  
+        _
+    ,--'_`--.    
+  ,/( \   / )\.  
+ //  \ \_/ /  \\ 
+|/___/     \___\|
+((___       ___))    Join the Empire !!!  ﴾̵ ̵◎̵ ̵﴿
+|\   \  _  /   /|
+ \\  / / \ \  // 
+  `\(_/___\_)/'
+    `--._.--'
+  
+ */
+
+//VARS
+
+//colors
+$vert:green;
+$blanc:white;
+$noir:black;
+$rouge:red;
+$orange:orange;
+$bleu:blue;
+$violet:purple;
+$gris:grey;
+$grisc:lighten($gris, 10%);
+$grisf:darken($gris, 10%);
+$jaune:yellow;
+
+
+//STYLE
+#menus{
+  &_1{
+    display: table;
+    width: 100%;
+    margin: 15px 0;
+    padding-left: 0;
+    .elt{
+      display: table-cell;
+      &:first-child{
+        background-color: $vert;
+        color: $blanc;
+      }
+      &:hover{
+        background-color: $bleu;
+        color: $blanc;
+      }
+      &:focus{
+         background-color: $orange;
+         color: $blanc;
+       }
+      &:active{
+        background-color: $rouge;
+        color: $blanc;
+      }
+      //Notice : Order matters ! Firstly you hover the element, then you focus it, and the you click it. Most of the time the behaviour is the same for hover and focus.
+
+    }
+  }
+  &_2{
+    display: table;
+    width: 100%;
+    margin: 15px 0;
+    padding-left: 0;
+    .elt{
+      background-color: $bleu;
+      color: $blanc;
+      display: table-cell;
+      border: 1px solid $noir;
+      &[data-test]{
+        border-radius:5px;
+      }
+      &[data-test="off"]{
+        background-color: $grisf;
+        color: $grisc;
+      }
+      &[data-test="on"]{
+        background-color: $vert;
+      }
+      &[data-test~="on"]{
+        color: $rouge;
+      }
+    }
+  }
+}
