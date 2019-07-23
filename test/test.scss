@@ -90,3 +90,40 @@ $jaune:yellow;
     }
   }
 }
+#para{
+  &_pseudo{
+    p.par{
+      width: 400px;
+      border : 1px solid $noir;
+      padding: 15px;
+      &_1{
+        &:before{
+          display: block;
+          height: 100px;
+          width: 100px;
+          background-color: $vert;
+          content: '';
+        }
+      }
+      &_2{
+        &:after{
+          display: block;
+          height: 100px;
+          width: 100px;
+          background-color: $rouge;
+          content: '';
+        }
+      }
+      &_3{
+        &:first-letter{
+          color: $orange;
+        }
+      }
+      &_4{
+        &:first-line{
+         color:$violet
+        }
+      }
+    }
+  }
+}

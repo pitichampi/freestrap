@@ -19,6 +19,10 @@
 | [foo]        | :green_heart: | :wavy_dash: [^3] |
 | [foo="val"]        |  :green_heart:  | :wavy_dash: [^3] |
 | [foo~="val"]        |  :green_heart: | :no_entry_sign: |
+| :before        |  :green_heart: | :no_entry_sign: |
+| :after       |  :green_heart: | :no_entry_sign: |
+| :first-letter       |  :green_heart: | :ok:   |
+| :first-line        |  :green_heart: | :ok:   |
 |              |               |                  |
 
 ## Notes :

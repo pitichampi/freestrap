@@ -70,4 +70,30 @@
   color: red;
 }
 
+#para_pseudo p.par {
+  width: 400px;
+  border: 1px solid black;
+  padding: 15px;
+}
+#para_pseudo p.par_1:before {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  content: "";
+}
+#para_pseudo p.par_2:after {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  content: "";
+}
+#para_pseudo p.par_3:first-letter {
+  color: orange;
+}
+#para_pseudo p.par_4:first-line {
+  color: purple;
+}
+
 /*# sourceMappingURL=test.css.map */
