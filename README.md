@@ -1,3 +1,5 @@
+# THIS REPO HAS MOVED TO A MORE RESPECTFUL GIT HOSTING : https://framagit.org/champigit/freestrap
+
 # Freestrap
 
 `a nice CSS2 css framework for freenet`
